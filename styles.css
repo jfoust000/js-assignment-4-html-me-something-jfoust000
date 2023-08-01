@@ -1,1 +1,85 @@
-/* Write your CSS here! */
+.bodyImage {
+
+    height: 500px;
+    width: auto;
+    border: 5px solid rgb(247, 249, 250);
+    border-radius: 35px;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+    
+}
+
+.bodyImage2 {
+
+    width: 800px;
+    height: auto;
+    border: 5px solid rgb(247, 249, 250);
+    border-radius: 35px;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+
+}
+
+.wrapper {
+    
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 90px 30px;
+height: 600px;
+width:auto;
+
+}
+
+header {
+
+    background-image: linear-gradient(to bottom right, rgb(7, 147, 240), rgb(8, 8, 8));
+    border: 5px solid rgb(250, 251, 252);
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%; 
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    padding: 20px;
+    text-shadow: 5px 5px 3px rgb(0, 0, 0);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+      
+}
+
+#headerImg {
+
+    border: 5px solid rgb(246, 246, 247);
+    border-radius: 50%;
+    margin-left: 20px;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+
+}
+
+p {
+
+    font-size: 20pt;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255);
+    word-wrap: normal;
+    width:800px;
+    
+}
+
+h1 {
+
+    font-size: 40pt;
+    color: white;
+
+}
+
+body {
+
+    font-family: 'Toon Cats';
+    background-image: linear-gradient(to right, rgb(85, 158, 246), rgb(179, 212, 249));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
