@@ -1,31 +1,17 @@
-.bodyImage {
+@font-face {
 
-    height: 500px;
-    width: auto;
-    border: 5px solid rgb(247, 249, 250);
-    border-radius: 35px;
-    box-shadow: 3px 3px 5px rgb(0, 0, 0);
-    
-}
-
-.bodyImage2 {
-
-    width: 800px;
-    height: auto;
-    border: 5px solid rgb(247, 249, 250);
-    border-radius: 35px;
-    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+    font-family: 'Toon Cats';
+    src:url(ToonCats-XgOP.ttf);
 
 }
 
-.wrapper {
-    
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 90px 30px;
-height: 600px;
-width:auto;
+body {
+
+    font-family: 'Toon Cats';
+    background-image: linear-gradient(to right, rgb(85, 158, 246), rgb(179, 212, 249));
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -56,15 +42,6 @@ header {
 
 }
 
-p {
-
-    font-size: 20pt;
-    text-shadow: 2px 2px 2px rgba(255, 255, 255);
-    word-wrap: normal;
-    width:800px;
-    
-}
-
 h1 {
 
     font-size: 40pt;
@@ -72,14 +49,49 @@ h1 {
 
 }
 
-body {
+.bodyImage {
 
-    font-family: 'Toon Cats';
-    background-image: linear-gradient(to right, rgb(85, 158, 246), rgb(179, 212, 249));
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 500px;
+    width: auto;
+    border: 5px solid rgb(247, 249, 250);
+    border-radius: 35px;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+    
+}
+
+.bodyImage2 {
+
+    width: 800px;
+    height: auto;
+    border: 5px solid rgb(247, 249, 250);
+    border-radius: 35px;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
 
 }
+
+.wrapper {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px 30px;
+    height: 600px;
+    width:auto;
+    
+    }
+
+p {
+
+    font-size: 20pt;
+    text-shadow: 1px 1px rgba(255, 255, 255);
+    word-wrap: normal;
+    width:800px;
+    
+}
+
+
+
+
+
 
 
