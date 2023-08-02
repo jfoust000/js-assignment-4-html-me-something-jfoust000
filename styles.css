@@ -7,11 +7,10 @@
 
 body {
 
+    margin: 8px;
     font-family: 'Toon Cats';
     background-image: linear-gradient(to right, rgb(85, 158, 246), rgb(179, 212, 249));
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
 
 }
 
@@ -45,7 +44,7 @@ header {
 h1 {
 
     font-size: 40pt;
-    color: white;
+    color: red;
 
 }
 
@@ -87,6 +86,12 @@ p {
     word-wrap: normal;
     width:800px;
     
+}
+
+.funParagraph {
+
+    color: green;
+
 }
 
 
