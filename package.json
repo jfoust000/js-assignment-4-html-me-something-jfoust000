@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "jasmine": "^3.6.3",
     "jsdom": "^16.4.0"
-  },
-  "dependencies": {}
+  }
 }
