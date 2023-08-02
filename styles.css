@@ -94,9 +94,42 @@ p {
 
 }
 
+embed {
 
+   width: 960px;
+   height: 540px;
 
+}
 
+.container {
+
+   display: flex;
+   justify-content: center;
+
+}
+
+.container p {
+
+position: absolute;
+text-align: center;
+
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+
+}
+
+a:visited {
+
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+
+}
 
 
 

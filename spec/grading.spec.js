@@ -45,6 +45,7 @@ describe ("Grading Tests: ", function () {
          expect(mainElements).toBeGreaterThanOrEqual(1);
          expect(articleElements).toBeGreaterThanOrEqual(1);
          expect(imageElements).toBeGreaterThanOrEqual(1);
+         console.log(`Number of img elements: ${imageElements}`);
    })
 
    it("HTML contains correct number of sections", function() {
