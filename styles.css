@@ -74,10 +74,9 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 90px 30px;
-    height: 600px;
-    width:auto;
+    margin-bottom: 25px;
     
-    }
+}
 
 p {
 
@@ -134,5 +133,10 @@ a:visited {
 
 }
 
+article {
+
+    padding: 5px;
+
+}
 
 
