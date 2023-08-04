@@ -18,6 +18,7 @@ window.addEventListener('load', function (e) {
         carousel.scrollLeft += videoWidth;
 
     });
+
 });
 
 function reveal() {
