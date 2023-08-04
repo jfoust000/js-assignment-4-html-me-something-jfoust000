@@ -111,8 +111,9 @@ p {
         
 }
 
-.slider-wrapper i  {
+.slider-wrapper button  {
 
+    border: none;
     top: 50%; 
     position:absolute;
     background: white;
@@ -127,13 +128,13 @@ p {
     
 }
 
-.slider-wrapper i:first-child {
+.slider-wrapper button:first-child {
 
     left: -23px;
     
 }
 
-.slider-wrapper i:last-child {
+.slider-wrapper button:last-child {
 
     right: -23px;
 
