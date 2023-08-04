@@ -6,6 +6,7 @@ window.addEventListener('load', function (e) {
     let rightButton = document.getElementById('right');
     let video = document.querySelectorAll('embed')[0];
     let videoWidth = video.clientWidth + 18;
+    
 
     leftButton.addEventListener('click', function (e) {
 
@@ -17,6 +18,10 @@ window.addEventListener('load', function (e) {
 
         carousel.scrollLeft += videoWidth;
 
+    });
+
+    this.window.addEventListener('resize', function (e) {
+        videoWidth = video.clientWidth + 18;
     });
 
 });
